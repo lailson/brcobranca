@@ -203,19 +203,19 @@ module Brcobranca
           # doc.show boleto.valor.to_currency
           doc.moveto :x => '16.5 cm' , :y => '13.5 cm'
           doc.show boleto.valor_documento.to_currency
-          doc.moveto :x => '0.7 cm' , :y => '12.7 cm'
+          doc.moveto :x => '0.4 cm' , :y => '12.7 cm'
           doc.show boleto.instrucao1
-          doc.moveto :x => '0.7 cm' , :y => '12.3 cm'
+          doc.moveto :x => '0.4 cm' , :y => '12.3 cm'
           doc.show boleto.instrucao2
-          doc.moveto :x => '0.7 cm' , :y => '11.9 cm'
+          doc.moveto :x => '0.4 cm' , :y => '11.9 cm'
           doc.show boleto.instrucao3
-          doc.moveto :x => '0.7 cm' , :y => '11.5 cm'
+          doc.moveto :x => '0.4 cm' , :y => '11.5 cm'
           doc.show boleto.instrucao4
-          doc.moveto :x => '0.7 cm' , :y => '11.1 cm'
+          doc.moveto :x => '0.4 cm' , :y => '11.1 cm'
           doc.show boleto.instrucao5
           doc.moveto :x => '0.7 cm' , :y => '10.7 cm'
           doc.show boleto.instrucao6
-          doc.moveto :x => '0.7 cm' , :y => '10.3 cm'
+          doc.moveto :x => '0.4 cm' , :y => '10.3 cm'
           doc.show boleto.instrucao7
           doc.moveto :x => '1.2 cm' , :y => '8.8 cm'
           doc.show "#{boleto.sacado} - #{boleto.sacado_documento.formata_documento}" if boleto.sacado && boleto.sacado_documento
