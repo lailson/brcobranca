@@ -206,9 +206,9 @@ module Brcobranca
           doc.show boleto.valor_documento.to_currency
           doc.moveto :x => '0.4 cm' , :y => '12.7 cm'
           doc.show boleto.instrucao1
-          doc.moveto :x => '0.4 cm' , :y => '12.3 cm', :with => :bold 
+          doc.moveto :x => '0.4 cm' , :y => '12.3 cm', :tag => :bold 
           doc.show boleto.instrucao2
-          doc.moveto :x => '0.4 cm' , :y => '11.9 cm', :with => :bold 
+          doc.moveto :x => '0.4 cm' , :y => '11.9 cm', :tag => :bold 
           doc.show boleto.instrucao3
           doc.moveto :x => '0.4 cm' , :y => '11.5 cm'
           doc.show boleto.instrucao4
