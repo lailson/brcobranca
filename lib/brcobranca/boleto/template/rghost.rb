@@ -126,6 +126,7 @@ module Brcobranca
 
           doc.define_tags do
             tag :grande, :size => 13
+            tag :bold, :name => 'TimesBold', :size => 11 
           end
         end
 
