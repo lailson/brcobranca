@@ -216,7 +216,7 @@ module Brcobranca
           doc.moveto :x => '0.4 cm' , :y => '10.7 cm'
           doc.text 'outro meio (art. 5º, II, §1º, IN 001/2015 – HEMOPI).  A mora superior a 60 dias implicará na abertura de processo'
           doc.moveto :x => '0.4 cm' , :y => '10.3 cm'
-          doc.text 'administrativo e remessa dos autos à Procuradoria Geral do Estado para  <bold>inscrição em dívida ativa do Estado, </bold>'          doc.moveto :x => '0.4 cm' , :y => '9.9 cm'
+          doc.text 'administrativo e remessa dos autos à Procuradoria Geral do Estado para  <bold>inscrição em dívida ativa do Estado, </bold>'          
           doc.moveto :x => '0.4 cm' , :y => '9.9 cm'
           doc.text '<bold>registro nos órgãos de proteção ao crédito e ajuizamento de execução fiscal</bold> (art. 5º, inciso II,§3º, IN 001/2015 - HEMOPI). '
           doc.moveto :x => '1.2 cm' , :y => '8.8 cm'
