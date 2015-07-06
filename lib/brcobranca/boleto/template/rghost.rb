@@ -126,7 +126,7 @@ module Brcobranca
 
           doc.define_tags do
             tag :grande, :size => 13
-            tag :bold, :name => 'TimesBold', :size => 10 
+            tag :bold, :name => 'TimesBold', :size => 9 
             tag :my_italic,    :name => 'Hershey-Gothic-Italian-Oblique', :size => 10
           end
         end
