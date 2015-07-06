@@ -208,7 +208,7 @@ module Brcobranca
           doc.moveto :x => '0.4 cm' , :y => '12.7 cm'
           doc.text '<bold>Sr. Caixa:</bold>'
           doc.moveto :x => '0.4 cm' , :y => '12.3 cm'
-          doc.text '<bold>- Aplicar multa de 10% e juros de 1% ao mês após o vencimento (art. 5º, II, §1º, IN 001/2015 – HEMOPI).</bold>'
+          doc.text '<bold>- Aplicar multa de 10% e juros de 1% ao mês após o vencimento (art. 5º, II, §1º, IN 001/2015 HEMOPI).</bold>'
           doc.moveto :x => '0.4 cm' , :y => '11.9 cm'
           doc.text '<bold>- Não receber após 30 dias do vencimento.</bold>'
           doc.moveto :x => '0.4 cm' , :y => '11.5 cm'
