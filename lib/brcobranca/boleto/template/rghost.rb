@@ -206,15 +206,15 @@ module Brcobranca
           doc.moveto :x => '16.5 cm' , :y => '13.5 cm'
           doc.show boleto.valor_documento.to_currency
           doc.moveto :x => '0.4 cm' , :y => '12.7 cm'
-          doc.text '<bold>My Text</bold>on this row.<grande>Other text</grande><my_italic>Italic font</my_italic>'
+          doc.text '<bold>Sr. Caixa:</bold>'
           doc.moveto :x => '0.4 cm' , :y => '12.3 cm'
-          doc.show boleto.instrucao2
+          doc.text '<bold>- Aplicar multa de 10% e juros de 1% ao mês após o vencimento (art. 5º, II, §1º, IN 001/2015 – HEMOPI).</bold>'
           doc.moveto :x => '0.4 cm' , :y => '11.9 cm'
-          doc.show boleto.instrucao3
+          doc.text '<bold>- Não receber após 30 dias do vencimento.</bold>'
           doc.moveto :x => '0.4 cm' , :y => '11.5 cm'
-          doc.show boleto.instrucao4
+          doc.text 'Não serão aceitos e contabilizados os pagamentos realizados via depósito bancário, transferência ou por qualquer'
           doc.moveto :x => '0.4 cm' , :y => '11.1 cm'
-          doc.show boleto.instrucao5
+          doc.text 'outro meio (art. 5º, II, §1º, IN 001/2015 – HEMOPI). A mora superior a 60 dias implicará na abertura de processo'
           doc.moveto :x => '0.4 cm' , :y => '10.7 cm'
           doc.show boleto.instrucao6
           doc.moveto :x => '0.4 cm' , :y => '10.3 cm'
