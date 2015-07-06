@@ -207,7 +207,7 @@ module Brcobranca
           doc.moveto :x => '0.4 cm' , :y => '12.7 cm'
           doc.show 'lailson'
           doc.moveto :x => '0.4 cm' , :y => '12.3 cm'
-          doc.show <b>boleto.instrucao2</b>
+          doc.show '<b>boleto.instrucao2</b>'
           doc.moveto :x => '0.4 cm' , :y => '11.9 cm'
           doc.show boleto.instrucao3
           doc.moveto :x => '0.4 cm' , :y => '11.5 cm'
